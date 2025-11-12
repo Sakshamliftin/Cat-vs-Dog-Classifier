@@ -25,3 +25,37 @@ This project tackles the classic binary image classification problem — disting
 - TensorFlow & Keras
 - NumPy & PIL
 - Streamlit for deployment-ready UI
+
+## 📊 Optimization Algorithms Notebook
+
+In addition to the Cat vs Dog classifier, this repository now includes a comprehensive implementation of **17 optimization algorithms** with detailed visualizations and explanations.
+
+### 🎯 Available in: `Notebook/optimization_algorithms.ipynb`
+
+The notebook covers:
+- **First-Order Methods**: Gradient Descent, Line Search, Armijo Backtracking, SGD, Mini-Batch GD, Momentum
+- **Regression & Classification**: Linear Regression, Logistic Regression
+- **Regularization**: Lasso (L1), Ridge (L2), Subgradient Descent
+- **Second-Order Methods**: Newton's Method (Root Finding & Optimization)
+- **Constrained Optimization**: Lagrange Multipliers, KKT Conditions, Active Set Method
+
+Each algorithm includes:
+- Mathematical formulation and theory
+- Clean, documented Python implementation
+- Comprehensive visualizations (convergence plots, optimization paths, contour plots)
+- Real example datasets and practical demonstrations
+
+### �� Documentation
+See `Notebook/README_OPTIMIZATION.md` for detailed information about each algorithm.
+
+### 🚀 Quick Start
+```bash
+cd Notebook
+jupyter notebook optimization_algorithms.ipynb
+```
+
+### 🧪 Testing
+Run the test suite to verify all algorithms:
+```bash
+python3 Notebook/test_notebook.py
+```
